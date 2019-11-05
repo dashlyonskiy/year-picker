@@ -54,13 +54,6 @@ function PickerPanel({
       <div className="body">
         <YearsList choiseYear={choiseYear} selectedYear={selectedYear} />
       </div>
-      <div className="footer">
-        <span className="footer-btn">
-          <a className="footer-today" onClick={thisYear}>
-            Today
-          </a>
-        </span>
-      </div>
     </div>
   );
 }
